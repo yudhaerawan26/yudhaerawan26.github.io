@@ -1,0 +1,1 @@
+[07-May-2018 06:03:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/yashikas/public_html/ppdbonline/adminppdbyashika/modul/mod_pendaftaran/aksi_pendaftaran.php on line 16

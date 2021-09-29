@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^index\.php$ main.php?module=pendaftaran&id=$1 [L]
+RewriteRule ^beranda\.html$ main.php?module=home&id=$1[L]
+RewriteRule ^page/(.*)/(.*)\.html$ main.php?module=halamanstatis&id=$1 [L]
+RewriteRule ^pendaftaran\.html$ main.php?module=pendaftaran&id=$1 [L]
+RewriteRule ^pendaftaransukses\.html$ main.php?module=pendaftaran-sukses&id=$1 [L]
+RewriteRule ^aksipendaftaran\.html$ main.php?module=input-pendaftaran&id=$1 [L]
+RewriteRule ^pengumuman\.html$ main.php?module=pengumuman&id=$1 [L]
+
+
+Options All -Indexes
+</IfModule>
